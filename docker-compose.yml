@@ -1,0 +1,6 @@
+---
+version: '3.3' 
+services:
+  redislistener:
+    image: hmtcentral.azurecr.io/pgbouncer:latest
+    build: .
